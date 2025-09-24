@@ -1,0 +1,15 @@
+flowchart TD
+    A[Início] --> B{Usuário já possui conta?}
+    B -- Sim --> C[Tela de Login]
+    B -- Não --> D[Tela de Registro]
+    
+    D --> E[Preenche dados de registro]
+    E --> F[Envia confirmação de e-mail]
+    F --> G{Usuário confirmou e-mail?}
+    G -- Não --> F
+    G -- Sim --> C[Tela de Login]
+    
+    C --> H[Valida credenciais]
+    H -- Inválidas --> C
+    H -- Válidas --> I[Redireciona para Home do Painel de Controle]
+    I --> J[Fim]

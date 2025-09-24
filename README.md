@@ -1,4 +1,4 @@
-# Criando-Fluxos-Mermaid-Usanpdo-IA
+# Com Criar Fluxos Mermaid Usando IA
 
 
 ### Prompt/instrução de sistema/projeto
